@@ -1,0 +1,17 @@
+{
+    "name": "vourto/vourto",
+    "description": "PHPLib for code optimization and clean.",
+    "type": "library",
+    "keywords": ["Vourto", "lib"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mauro Alexandre",
+            "email": "profissionalweb04@gmail.com",
+            "role": "Development"
+        }
+    ],
+    "require": {
+        "php": "^5.6.2 || ^7.0"
+    }
+}
