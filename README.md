@@ -29,7 +29,9 @@ Download composer file (composer.json) from our repository to you local/public s
     }
 }
 ```
-
+```
+composer require vourto/vourto
+```
 ### Direct download
 Download cloning repository
 ```
