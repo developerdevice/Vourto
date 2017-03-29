@@ -1,12 +1,12 @@
-### DOCUMENTATION V1.0.0
+## DOCUMENTATION V1.0.0
 
 Vourto it’s a PHP library that allow agility and usability to the code. The best solution currently.
 
-## Installing
+### Installing
 
 You can to download the lib using Composer (recommended) or simplesly downloading directly from GitHub repository.
 
-## Composer
+### Composer
 
 Download composer file (composer.json) from our repository to you local/public server or copy the below code
 
@@ -30,7 +30,7 @@ Download composer file (composer.json) from our repository to you local/public s
 }
 ```
 
-## Direct download
+### Direct download
 Download cloning repository
 ```
 git clone https://github.com/developerdevice/Vourto.git
@@ -38,7 +38,7 @@ git clone https://github.com/developerdevice/Vourto.git
 or [downloading directly](https://github.com/developerdevice/Vourto/archive/master.zip)
 
 
-### Integrating
+## Integrating
 
 For use the library you must to include autoload.php in your application
 ```
