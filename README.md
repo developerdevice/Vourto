@@ -1,6 +1,3 @@
-# Vourto
-PHPLib for code optimization and clean.
-
 ### DOCUMENTATION V1.0.0
 
 Vourto it’s a PHP library that allow agility and usability to the code. The best solution currently.
