@@ -1,14 +1,14 @@
 ## DOCUMENTATION V1.0.0
 
-Vourto it’s a PHP library that allow agility and usability to the code. The best solution currently.
+Vourto is a PHP library that allows agility and usability on the code. The best solution currently.
 
 ### Installing
 
-You can to download the lib using Composer (recommended) or simplesly downloading directly from GitHub repository.
+You can download the library using Composer (recommended) or simply download it directly from GitHub repository.
 
 ### Composer
 
-Download composer file (composer.json) from our repository to you local/public server or copy the below code
+Download the composer file (composer.json) from our repository to you local/public server or copy the below code
 
 ```
 {
@@ -33,16 +33,16 @@ Download composer file (composer.json) from our repository to you local/public s
 composer require vourto/vourto
 ```
 ### Direct download
-Download cloning repository
+Clone the repository
 ```
 git clone https://github.com/developerdevice/Vourto.git
 ```
-or [downloading directly](https://github.com/developerdevice/Vourto/archive/master.zip)
+or [download directly](https://github.com/developerdevice/Vourto/archive/master.zip)
 
 
 ## Integrating
 
-For use the library you must to include autoload.php in your application
+To use the library you must include autoload.php in your application
 ```
 require_once "Vourto/autoload.php";
 ```
@@ -79,7 +79,7 @@ $app->close();
 
 ```
 
-You can use an callback in the event onsuccess
+You can use a callback in the event onsuccess
 
 ```
 $app = Prop::exec(
@@ -101,7 +101,7 @@ $app = Prop::exec(
 
 ```
 
-The next examples verifies if id exists and if their length if < 4 or > 11
+The next examples verifies if id exists and if it's length is < 4 or > 11
 
 ```
 require_once "Vourto/autoload.php";
@@ -122,7 +122,7 @@ echo $app->getStd();
 $app->close();
 ```
 
-The code above would be like the below code
+The code above is equivalent to the below code
 
 ```
 if(isset($_GET["id"] === false)){
@@ -135,14 +135,14 @@ echo "ID must be a maximum of 11 characters";
 header("location: page.php?id=${_GET["id"]}");
 }
 ```
-Now try verify 2 elements using many if statement and using Vourto LIB.
+Now try verifying 2 elements using a lot of if statement's and compare it to using Vourto LIB.
 
 There are yet another functions:
 - type [numeric, double…]
 - pattern [regex]
 
-To see more example: search the path named /bin/ and open the examples files.
+To see more examples: search the path named /bin/ and open the examples files.
 
 ## Support or Contact
 
-Having trouble with lib ? Contact support and we’ll help you sort it out.
+Having trouble with lib ? Contact me and I'll help you sort it out.
